@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 2 Assignment - Advanced HTML5</title>
+</head>
+<body>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Top Priorities</h2>
+    <ol type="I">
+      <li>Complete HTML Assignment</li>
+      <li>Practice JavaScript</li>
+      <li>Work on Portfolio</li>
+      <li>Join Coding Community</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Inspiration</h2>
+    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Coding Setup" width="500">
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>My Contacts</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>Nairobi</td>
+          <td>0712345678</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>Kisumu</td>
+          <td>0723456789</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Kim</td>
+          <td>Mombasa</td>
+          <td>0734567890</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>Ali Yusuf</td>
+          <td>Nakuru</td>
+          <td>0745678901</td>
+          <td>ali@example.com</td>
+        </tr>
+        <tr>
+          <td>Linda Achieng</td>
+          <td>Eldoret</td>
+          <td>0756789012</td>
+          <td>linda@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">--Choose an option--</option>
+        <option value="web">Web Development</option>
+        <option value="data">Data Science</option>
+        <option value="ai">AI & ML</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Multimedia: Audio & Video -->
+  <section>
+    <h2>Listen & Watch</h2>
+
+    <!-- Audio -->
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio><br><br>
+
+    <!-- Video -->
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+</body>
+</html>
